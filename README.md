@@ -5,9 +5,9 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
 É um jogo simples normalmente jogado em um tabueiro que é composto por três linhas e três colunas. 
-Quando as linhas e colunas são traçadas elas formam lacunas vazias, estas lacunas devem ser preenchidas por dois jogadores que selecionam o símbulo (círculo ou Xis) para preencher as lacunas. 
-Os jogadores vão preenchendo alternadamente as lacunas do tabuieiro. O objetivo é colocar três círculos ou xis em linha, seja ela vertical, horizontal ou diagonal, enquanto tenta impedir seu adversário de fazer o mesmo.
-Caso um dos jogadores consiga colocar três elementos em linha, é declarado o vencedor. Mas, caso nenhum consiga tal feito, é declarado o empate.No Brasil o jogo tem este nome porquê quando ocorre um empate costuma se dizer "deu velha".
+Quando as linhas e colunas são traçadas elas formam lacunas vazias, estas lacunas devem ser preenchidas por dois jogadores que selecionam o símbolo (círculo ou Xis) para preencher as lacunas. 
+Os jogadores vão preenchendo alternadamente as lacunas do tabueiro. O objetivo é colocar três círculos ou xis em linha, seja ela vertical, horizontal ou diagonal, enquanto tenta impedir seu adversário de fazer o mesmo.
+Caso um dos jogadores consiga colocar três elementos em linha, é declarado o vencedor. Contudo, caso nenhum consiga tal feito, é declarado o empate. No Brasil o jogo tem este nome porquê quando ocorre um empate costuma se dizer "deu velha".
 ## Este software
 
 

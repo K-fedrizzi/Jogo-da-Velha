@@ -1,12 +1,15 @@
-# Nome_da_Aplicação
+# Jogo da Velha
 
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
 
-Nome_da_Aplicação é um/uma ... que permite/tem por objetivo/visa/etc .... 
+É um jogo simples normalmente jogado em um tabueiro que é composto por três linhas e três colunas. 
+Quando as linhas e colunas são traçadas elas formam lacunas vazias, estas lacunas devem ser preenchidas por dois jogadores que selecionam o símbulo (círculo ou Xis) para preencher as lacunas. 
+Os jogadores vão preenchendo alternadamente as lacunas do tabuieiro. O objetivo é colocar três círculos ou xis em linha, seja ela vertical, horizontal ou diagonal, enquanto tenta impedir seu adversário de fazer o mesmo.
+Caso um dos jogadores consiga colocar três elementos em linha, é declarado o vencedor. Mas, caso nenhum consiga tal feito, é declarado o empate.No Brasil o jogo tem este nome porquê quando ocorre um empate costuma se dizer "deu velha".
+## Este software
 
-Coloque aqui linhas adicionais com informações sobre o que a aplicação faz. Sua introdução deve ser de no máximo 3 parágrafos, seja simples e objetivo para não sobrecarregar de detalhes desnecessários este espaço. Se necessário, crie novas seções abaixo.
 
 ## Pré-requisitos
 
@@ -52,6 +55,7 @@ As seguintes pessoas contribuiram para este projeto:
 
 * [Meu nome](https://github.com/meu_nome)
 * *.... (liste todos os membros da equipe)*
+Heliton Oliveira da Silva
 
 ## Licença de uso
 

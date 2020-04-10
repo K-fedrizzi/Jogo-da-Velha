@@ -1,0 +1,29 @@
+{
+  "name": "jogo-da-velha",
+  "version": "1.0.0",
+  "description": "É um jogo simples normalmente jogado em um tabueiro que é composto por três linhas e três colunas. Quando as linhas e colunas são traçadas elas formam lacunas vazias, estas lacunas devem ser preenchidas por dois jogadores que selecionam o símbolo (círculo ou Xis) para preencher as lacunas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-fedrizzi/Jogo-da-Velha.git"
+  },
+  "keywords": [
+    "jogo",
+    "velha"
+  ],
+  "author": "prog web ufms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-fedrizzi/Jogo-da-Velha/issues"
+  },
+  "homepage": "https://github.com/K-fedrizzi/Jogo-da-Velha#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}

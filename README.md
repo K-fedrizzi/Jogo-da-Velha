@@ -1,8 +1,8 @@
 # Jogo da Velha
 
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
-![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
-![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
+![GitHub repo size](https://img.shields.io/github/repo-size/K-fedrizzi/Jogo-da-Velha)
+![GitHub contributors](https://img.shields.io/github/contributors/K-fedrizzi/Jogo-da-Velha)
 
 É um jogo simples normalmente jogado em um tabueiro que é composto por três linhas e três colunas. 
 Quando as linhas e colunas são traçadas elas formam lacunas vazias, estas lacunas devem ser preenchidas por dois jogadores que selecionam o símbolo (círculo ou Xis) para preencher as lacunas. 
@@ -15,8 +15,7 @@ Caso um dos jogadores consiga colocar três elementos em linha, é declarado o v
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 <!--- Estes são alguns exemplos de requisitos. Adicione, duplique e remove como necessário --->
-* Você deve possuir a última versão do `<linguagem/dependencia/etc>` instalado.
-* Você deve possuir uma máquina `<Windows/Linux/Mac>`. (Deixe claro qual SO é possível rodar a aplicação, Linux é obrigatório).
+* Você deve possuir a última versão do `Node` instalado.
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
 * (outros ...)
 
@@ -39,9 +38,11 @@ Windows (opcional):
 
 ## Usando Nome_da_Aplicação
 
-Para usar Nome_da_Aplicação, siga os seguintes passos (exemplos):
+Para usar Jogo da Velha, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost/....`
+Execute o comando para iniciar o projeto em modo de desenvolvimento `npm run develop`
+
+* Abra o navegador e digite o seguinte endereço: `http://localhost:8080`
 * Ao abrir a aplicação você poderá:
   * Navegar pelo conteúdo público, ou
   * Entrar com usuário e senha para ....
@@ -53,9 +54,9 @@ Para usar Nome_da_Aplicação, siga os seguintes passos (exemplos):
 
 As seguintes pessoas contribuiram para este projeto:
 
-* [Meu nome](https://github.com/meu_nome)
+* [Jhonnatan Vieira](https://github.com/MrGr4v3s)
+* [Heliton Oliveira da Silva](https://github.com/HelitonUFMS)
 * *.... (liste todos os membros da equipe)*
-Heliton Oliveira da Silva
 
 ## Licença de uso
 

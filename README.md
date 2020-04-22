@@ -56,7 +56,7 @@ As seguintes pessoas contribuiram para este projeto:
 
 * [Jhonnatan Vieira](https://github.com/MrGr4v3s)
 * [Heliton Oliveira da Silva](https://github.com/HelitonUFMS)
-* *.... (liste todos os membros da equipe)*
+* [Karina Fedrizzi](https://github.com/K-fedrizzi)*
 
 ## Licença de uso
 

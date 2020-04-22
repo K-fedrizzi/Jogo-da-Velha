@@ -8,47 +8,38 @@
 Quando as linhas e colunas são traçadas elas formam lacunas vazias, estas lacunas devem ser preenchidas por dois jogadores que selecionam o símbolo (círculo ou Xis) para preencher as lacunas. 
 Os jogadores vão preenchendo alternadamente as lacunas do tabueiro. O objetivo é colocar três círculos ou xis em linha, seja ela vertical, horizontal ou diagonal, enquanto tenta impedir seu adversário de fazer o mesmo.
 Caso um dos jogadores consiga colocar três elementos em linha, é declarado o vencedor. Contudo, caso nenhum consiga tal feito, é declarado o empate. No Brasil o jogo tem este nome porquê quando ocorre um empate costuma se dizer "deu velha".
-## Este software
-
 
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
-<!--- Estes são alguns exemplos de requisitos. Adicione, duplique e remove como necessário --->
+
 * Você deve possuir a última versão do `Node` instalado.
 * Você deve ler o `<guia/link/documentação>` dos termos de uso.
-* (outros ...)
+
 
 ## Como executar
 
-Para fazer o deploy da aplicação siga os seguintes passos:
+Execute o comando para iniciar o servidor com um gerenciador de pacotes npm ou yarn
 
 Linux e/ou macOS:
-```
-<commando 1>
-<commando 2>
-....
-<commando n>
-```
+
+  utilizando o npm: `npm run develop`
+
+  utilizando o yarn: `yarn run develop`
 
 Windows (opcional):
-```
-<commandos>
-```
 
-## Usando Nome_da_Aplicação
+  utilizando o npm: `npm run develop`
+
+  utilizando o yarn: `yarn run develop`
 
 Para usar Jogo da Velha, siga os seguintes passos (exemplos):
 
-Execute o comando para iniciar o projeto em modo de desenvolvimento `npm run develop`
 
 * Abra o navegador e digite o seguinte endereço: `http://localhost:8080`
-* Ao abrir a aplicação você poderá:
-  * Navegar pelo conteúdo público, ou
-  * Entrar com usuário e senha para ....
-* *Continua ...*  
 
 *Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
+
 
 ## Contribuidores
 
@@ -56,7 +47,7 @@ As seguintes pessoas contribuiram para este projeto:
 
 * [Jhonnatan Vieira](https://github.com/MrGr4v3s)
 * [Heliton Oliveira da Silva](https://github.com/HelitonUFMS)
-* [Karina Fedrizzi](https://github.com/K-fedrizzi)*
+* [Karina Fedrizzi](https://github.com/K-fedrizzi)
 
 ## Licença de uso
 

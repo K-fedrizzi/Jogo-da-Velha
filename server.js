@@ -1,16 +1,32 @@
-const express = require('express');
-const server = express();
+const express = require("express")
+const app = express()
+const handlebars = require("express-handlebars")
 
-const path = require('path');
-const rota = express.Router();
+// Config
+// Template Engine
+app.engine("handlebars", handlebars({defaultLayout: 'main'}))
+app.set("view engine", "handlebars")
 
-rota.get('/', (requisicao, resposta) => {
-    resposta.sendFile(path.join(__dirname + '/public/index.html'));
-});
+// Rotas
 
-server.use(rota);
+// por enquanto a rota principal será o tabuleiro com a simulação do jogo da velha
+app.get("/", function(req, res){
+    res.render("tabuleiro")
+})
 
-const porta = process.env.port || 8080
-server.listen(porta);
+app.get("/cad", function(req, res){
+    res.render("cadastro")
+})
 
-console.log(`Servidor rodando na url http:localhost:${porta}`)
+app.get("/tab", function(req, res){
+    res.render("tabuleiro")
+})
+
+app.get("/log", function(req, res){
+    res.render("login")
+})
+
+// Server
+app.listen(8081, function(){
+    console.log("Servidor rodando na url http://localhost:8081")
+})

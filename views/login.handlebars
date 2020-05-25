@@ -1,9 +1,17 @@
-<form action="POST" method="">
-    <label for="">usuario</label>
-    <input type="text" name="usuario"><br>
 
-    <label for="">senha</label>
-    <input type="password" name="senha"><br><br>
+<div class="container-md">
+    <form action="/usuarios/login" method="post">
+        <div class="form-group">
+            <label for="nome">Usuário</label>
+            <input type="email" class="form-control" id="nome" name="nome">
+        </div>
 
-    <input type="button" name="logar" id="logar" value="entrar">
-</form>
+
+        <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" class="form-control" id="password" name="password">
+        </div>
+
+        <button type="Logar" class="btn btn-primary">Entrar</button>
+    </form>
+</div>

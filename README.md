@@ -33,13 +33,26 @@ Windows (opcional):
 
   utilizando o yarn: `yarn run develop`
 
+utilizando o nodemon: `nodemon run develop`
+
+Instale o Banco de Dados MongoDB, pois este será utilizado neste projeto
+  - Baixe o MongoDB
+  - Abra o diretório c: do windows e crie uma pasta chamada "data"
+  - Dentro da pasta "data", crie outra pasta chamada "db"
+
 Para usar Jogo da Velha, siga os seguintes passos (exemplos):
 
 
 * Abra o navegador e digite o seguinte endereço: `http://localhost:8080`
 
 *Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
-  Por enquanto a pagina simula uma partida de jogo da velha.
+  
+  - A aplicação está apresentando erros na execução no código de autenticação, os erros ainda estão sendo tratados.
+
+  - O que está funcionando na aplicação é o cadastro de usuário, a parte de autenticação está dando erro.
+
+
+
 
 
 ## Contribuidores

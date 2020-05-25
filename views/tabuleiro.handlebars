@@ -1,44 +1,18 @@
-<head>
-    <script
-        src="C:\Users\Emerson_Costa\Desktop\TrabalhoProgWeb\TrabalhoProgWeb\Jogo-da-Velha\models\JogoDaVelha.js"></script>
-</head>
-
-<body>
     
-    <div class="tabuleiro-container">
-        <h1 id="texto">Jogo da Velha</h1>
-        <button class="m00" id="blocoArea" onclick="matriz00()">?</button>
-        <button class="m01" id="blocoArea" onclick="matriz01()">?</button>
-        <button class="m02" id="blocoArea" onclick="matriz02()">?</button>
-        <br>
-        <button class="m10" id="blocoArea" onclick="matriz10()">?</button>
-        <button class="m11" id="blocoArea" onclick="matriz11()">?</button>
-        <button class="m12" id="blocoArea" onclick="matriz12()">?</button>
-        <br>
-        <button class="m20" id="blocoArea" onclick="matriz20()">?</button>
-        <button class="m21" id="blocoArea" onclick="matriz21()">?</button>
-        <button class="m22" id="blocoArea" onclick="matriz22()">?</button>
-    </div>
-</body>
-
-<style>
-    #texto{
-        margin-left: 135px;
-    }
-
-    #blocoArea{
-        border-color: aqua;
-        height: 150px; 
-        width: 150px;
-        font-size: 70px;
-    }
-
-    .tabuleiro-container{
-        margin-top: 70px;
-        margin-left: 550px;
-    }
-
-</style>
+<div class="tabuleiro-container">
+    <h1 id="texto">Jogo da Velha</h1>
+    <button class="m00" id="blocoArea" onclick="matriz00()">?</button>
+    <button class="m01" id="blocoArea" onclick="matriz01()">?</button>
+    <button class="m02" id="blocoArea" onclick="matriz02()">?</button>
+    <br>
+    <button class="m10" id="blocoArea" onclick="matriz10()">?</button>
+    <button class="m11" id="blocoArea" onclick="matriz11()">?</button>
+    <button class="m12" id="blocoArea" onclick="matriz12()">?</button>
+    <br>
+    <button class="m20" id="blocoArea" onclick="matriz20()">?</button>
+    <button class="m21" id="blocoArea" onclick="matriz21()">?</button>
+    <button class="m22" id="blocoArea" onclick="matriz22()">?</button>
+</div>
 
 <script>
     // código temporário que vai ser alocado no modelo do projeto
@@ -62,7 +36,7 @@
     var m22 = document.getElementsByClassName('m22')[0];
 
     // marcar campos dos botões
-
+    
     // primeiros 3 botões
     function matriz00() {
         if (jogadaX == true) {
@@ -266,7 +240,22 @@
             for (j = 0; j < 3; j++)
                 ma[i][j] = 0
     }
-
 </script>
 
-</html>
+<style>
+    #texto{
+    margin-left: 135px;
+}
+
+#blocoArea{
+    border-color: aqua;
+    height: 150px; 
+    width: 150px;
+    font-size: 70px;
+}
+
+.tabuleiro-container{
+    margin-top: 70px;
+    margin-left: 550px;
+}
+</style>

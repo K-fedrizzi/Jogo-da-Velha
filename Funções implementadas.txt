@@ -1,6 +1,0 @@
-Atualizações feitas até agora no trabalho
-
-* Criação dos modelos do trabalho
-* Criação das Layoults de login e cadastro
-* implementação do cadastro do sistema
-* implementação da autenticação do projeto que ainda esta dando erro

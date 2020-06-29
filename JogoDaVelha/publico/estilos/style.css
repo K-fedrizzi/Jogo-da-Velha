@@ -1,0 +1,93 @@
+#texto {
+    margin-left: 135px;
+}
+
+#blocoArea {
+    border-color:rebeccapurple;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+}
+
+.tabuleiro-container {
+    margin-top: 60px;
+    margin-left: 600px;
+}
+
+.conf01{
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+   
+}
+
+.conf02{
+    margin-left: 60px;
+    margin-top: 5px;
+    width: 200px;
+    height:50px;
+   
+}
+
+.conf03{
+    margin-left: 60px;
+    margin-top: 10px; 
+    width: 200px;
+    height:50px;
+}
+
+.ptJog{
+    margin-left: -150px;
+    margin-top: -70px;
+}
+
+.ptPC{
+    margin-left: 370px;
+    margin-top: -600px; 
+}
+
+.scorePoint{
+    width: 40px;
+    height: 40px;
+}
+
+.textFormatScore{
+   text-size-adjust: 50px;
+}
+
+.textAviso{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 65px;
+ }
+
+.posButton{
+    margin-top: -200px;
+    margin-left: 650px;
+}
+
+.caixaButtons{
+    margin-top:  250px;
+    margin-left: 450px;
+    width: 700px;
+    height: 500px;
+}
+
+.posButton2{
+    margin-left: 150px;
+}
+
+.caixaButtons2{
+    margin-top:  250px;
+    margin-left: 550px;
+    width: 500px;
+    height: 200px;
+}
+
+.sair{
+    position: absolute;
+    margin-top:  560px;
+    margin-left: 100px;
+}
+

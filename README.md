@@ -13,46 +13,21 @@ Caso um dos jogadores consiga colocar três elementos em linha, é declarado o v
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
 
-* Você deve possuir a última versão do `Node` instalado.
-* Você deve ler o `<guia/link/documentação>` dos termos de uso.
-
+* Você deve possuir um servidor PHP instalado na máquina.
 
 ## Como executar
 
-Execute o comando para iniciar o servidor com um gerenciador de pacotes npm ou yarn
+  Projeto testado no Sistema Operacional Windows
 
-Linux e/ou macOS:
+    Instalar um servidor PHP 'XAMPP' ou um outro servidor qualquer
 
-  utilizando o npm: `npm run develop`
+    Copie a pasta do projeto e coloque no diretório onde o servidor local possa identificar
 
-  utilizando o yarn: `yarn run develop`
+    O projeto possui o sqlite, portanto não precisa instalar nenhum SGBD
 
-Windows (opcional):
+## Linguagens Utilizadas
 
-  utilizando o npm: `npm run develop`
-
-  utilizando o yarn: `yarn run develop`
-
-utilizando o nodemon: `nodemon run develop`
-
-Instale o Banco de Dados MongoDB, pois este será utilizado neste projeto
-  - Baixe o MongoDB
-  - Abra o diretório c: do windows e crie uma pasta chamada "data"
-  - Dentro da pasta "data", crie outra pasta chamada "db"
-
-Para usar Jogo da Velha, siga os seguintes passos (exemplos):
-
-
-* Abra o navegador e digite o seguinte endereço: `http://localhost:8080`
-
-*Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
-  
-  - A aplicação está apresentando erros na execução no código de autenticação, os erros ainda estão sendo tratados.
-
-  - O que está funcionando na aplicação é o cadastro de usuário, a parte de autenticação está dando erro.
-
-
-
+  O projeto foi desenvolvido em PHP e Javascript se qualquer uso de framework
 
 
 ## Contribuidores
